@@ -1,0 +1,55 @@
+<html>
+    <head>
+      <title>Water Popup</title>
+    </head>
+    <body id="popupBody">
+        <img id="headerImg" src='https://htmlcolorcodes.com/assets/images/color-picker/html-color-codes-color-wheel-analogous-thumb-43afde7d.png' id='hydrateImage'>
+        <div id="buttons">
+            <button id='reset'>Reset Color</button>
+            <hr>
+            <button id='green'>Green</button>
+            <button id='red'>Red</button>
+            <button id='yellow'>Yellow</button>
+        </div>
+     <script src="jquery-3.4.1.min.js"></script>
+     <script src="js/popup.js"></script>
+    </body>
+    <style>
+        #popupBody {
+            width: 150px;
+            height: 300px;
+        }
+
+        #buttons {
+            display: grid;
+        }
+
+        #buttons > button {
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #c5c5c5;
+            font-weight: bold;
+            height: 30px;
+        }
+
+        #green {
+            background-color: #12b52b;
+        }
+
+        #red {
+            background-color: #cf271b;
+        }
+
+        #yellow {
+            background-color: #d4ca19;
+        }
+
+        img#headerImg {
+            width: 100%;
+        }
+
+        iframe {
+            width: 100%;
+        }
+    </style>
+</html>
